@@ -15,7 +15,7 @@ tar -xvf ${NEXUS_RELEASE}-unix.tar.gz
 sudo adduser nexus
 sudo usermode -aG wheel nexus
 sudo chown -R nexus:nexus ${NEXUS_RELEASE}
-sudo chown -R nexus:nexus sonartype-work
+sudo chown -R nexus:nexus sonatype-work
 echo 'run_as_user="nexus"' >${NEXUS_RELEASE}/bin/nexus.rc
 
 ## configure nexus daemon
